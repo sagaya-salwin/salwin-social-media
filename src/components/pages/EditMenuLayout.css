@@ -1,0 +1,28 @@
+.EditMenu{
+    position: absolute;
+    top: 18px;
+    right: 0;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background: rgba(231, 220, 220, 0.644);
+}
+
+.EditMenu ul{
+    margin: 5px;
+}
+
+.EditMenu ul li{
+    list-style: none;
+    font-size: bold;
+    margin-top: 5px;
+    padding: 5px;
+    margin-left: 5px;
+}
+.EditMenu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.EditMenu ul li:hover{
+    background-color: yellow;
+    border-radius: 0.5rem;
+}

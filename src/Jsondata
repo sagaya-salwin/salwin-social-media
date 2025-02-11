@@ -1,0 +1,30 @@
+{
+      id:1,
+      title:"My First Post",
+      img:"https://picsum.photos/seed/picsum/450/300",
+      body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aut eveniet ut earum at voluptas alias. Ipsam est commodi molestias repellat similique animi, soluta, ex dolor esse rerum tempora ab.",
+      date:"May 9" ,
+      heartcount:10000,
+      heart:true,
+      commends:[]       
+    },
+    {
+      id:2,
+      title:"My Second Post",
+      img:"https://picsum.photos/seed/picsum/450/300",
+      body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aut eveniet ut earum at voluptas alias. Ipsam est commodi molestias repellat similique animi, soluta, ex dolor esse rerum tempora ab.",
+      date:"May 9" ,
+      heartcount:0,
+      heart:false,
+      commends:[]       
+    },
+    {
+      id:3,
+      title:"My Third Post",
+      img:"https://picsum.photos/seed/picsum/450/300",
+      body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aut eveniet ut earum at voluptas alias. Ipsam est commodi molestias repellat similique animi, soluta, ex dolor esse rerum tempora ab.",
+      date:"May 9" ,
+      heartcount:0,
+      heart:false,
+      commends:[]       
+    }

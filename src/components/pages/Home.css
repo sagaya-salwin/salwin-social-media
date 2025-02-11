@@ -1,0 +1,80 @@
+.Home{
+    padding: 0.5rem;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-content: space-between;
+}
+.Home .loding{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15rem;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0.5rem;
+    width: 32.5%;
+    flex-grow: 1;
+}
+
+.post .postheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.like-comment{
+    display: flex;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    justify-content: end;
+    gap: 8px;
+}
+.heart{
+    display: flex;
+    cursor: pointer;
+}
+
+.heart svg{
+    height: 1rem;
+    width: 1rem;
+}
+.post .red{
+    color: red;
+    transform: 0.3s;
+}
+
+.post .black{
+    color: black;
+    transform: 0.3s;
+}
+.comment{
+    cursor: pointer;
+}
+.Home .post img{
+    height: 200px;
+    margin-top: 0.3rem;
+}
+
+.Home .post p span{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+@media (max-width:480px) {
+    .post{
+        height: 30%;
+        width: 100%;
+    }
+}
+
+
